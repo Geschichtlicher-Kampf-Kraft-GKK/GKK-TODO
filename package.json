@@ -9,7 +9,7 @@
   "private": false,
   "scripts": {
     "docs:install": "yarn add -D vuepress && yarn add -D vuepress-theme-antdocs",
-    "docs:dev": "yarn vuepress dev docs -open",
+    "docs:dev": "yarn vuepress dev docs --open",
     "docs:build": "yarn vuepress build docs"
   },
   "devDependencies": {
