@@ -8,8 +8,7 @@ jobs:
       uses: actions/checkout@master
     - name: Install and Build
       run: |
-        yarn add -D vuepress &&
-        yarn add -D vuepress-theme-antdocs &&
+        yarn &&
         yarn vuepress build docs
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@3.5.9

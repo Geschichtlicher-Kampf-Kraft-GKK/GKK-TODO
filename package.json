@@ -9,8 +9,8 @@
   "private": false,
   "scripts": {
     "docs:install": "yarn add -D vuepress && yarn add -D vuepress-theme-antdocs",
-    "docs:dev": "yarn vuepress dev dosc -open",
-    "docs:build": "yarn vuepress build"
+    "docs:dev": "yarn vuepress dev docs -open",
+    "docs:build": "yarn vuepress build docs"
   },
   "devDependencies": {
     "vuepress": "^1.7.1",
