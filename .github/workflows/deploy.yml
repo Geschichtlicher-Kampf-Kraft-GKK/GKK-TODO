@@ -12,8 +12,8 @@ jobs:
         yarn vuepress build docs
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@3.5.9
-      env:
-        ACTIONS_ALLOW_UNSECURE_COMMANDS: true
+      # env:
+      #   ACTIONS_ALLOW_UNSECURE_COMMANDS: true
       with: 
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BRANCH: deploy
