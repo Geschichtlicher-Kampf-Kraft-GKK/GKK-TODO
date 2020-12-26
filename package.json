@@ -1,0 +1,20 @@
+{
+  "name": "GKK-TODO",
+  "version": "1.0.0",
+  "description": "A TODOlist for GKK.",
+  "main": "index.js",
+  "repository": "git@github.com:Geschichtlicher-Kampf-Kraft-GKK/GKK-TODO.git",
+  "author": "bingling_sama <bingling_sama@qq.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "docs:install": "yarn add -D vuepress && yarn add -D vuepress-theme-antdocs",
+    "docs:dev": "yarn vuepress dev dosc -open",
+    "docs:build": "yarn vuepress build"
+  },
+  "devDependencies": {
+    "vuepress": "^1.7.1",
+    "vuepress-theme-antdocs": "^1.2.2",
+    "core-js": "2.6.12"
+  }
+}
